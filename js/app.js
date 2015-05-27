@@ -16,7 +16,7 @@ $(document).ready(function() {
 			500,
 			function() {
 				$(this).hide();
-				$(this).css('left', '550px');
+				$(this).css('left', '552px');
 			}
 		);
 	})
@@ -48,7 +48,7 @@ $(document).keyup(function(event) {
 		$('ryu-cool').hide();
 		$('ryu-still').show();
 	}
-});
+})
 
 function playHadouken () {
 	$('#hadouken-sound')[0].volume = 0.5;
